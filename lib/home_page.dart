@@ -10,7 +10,7 @@ class HomePage extends StatefulWidget {
   @override
   State<HomePage> createState() => _HomePageState();
 }
-
+// for every project we have to change  three dependencies 1. settings.gradle 2.gradle-wrapper.properties 3. App + src +level build.gradle
 class _HomePageState extends State<HomePage> {
   var firstController = TextEditingController();
   var secondController = TextEditingController();
