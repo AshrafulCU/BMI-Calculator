@@ -1,6 +1,8 @@
 # bmi_calculator
 
-![screenshot](assets/imageSS1.png)
+![screenshot](assets/imageSS1.jpg),
+![screenshot](assets/imageSS1.jpg),
+![screenshot](assets/imageSS1.jpg)
 
 
 A new Flutter project.
