@@ -72,7 +72,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
           ),
           Positioned(
-            bottom: 20, // Adjust the position as needed
+            bottom: 10, // Adjust the position as needed
             left: 0,
             right: 0,
             child: Center(
