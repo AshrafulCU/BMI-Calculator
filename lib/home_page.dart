@@ -10,7 +10,21 @@ class HomePage extends StatefulWidget {
   @override
   State<HomePage> createState() => _HomePageState();
 }
-// for every project we have to change  three dependencies 1. settings.gradle 2.gradle-wrapper.properties 3. App + src +level build.gradle
+
+
+// for every project we have to change  three dependencies
+// 1. settings.gradle
+// id "com.android.application" version "8.7.2" apply false
+// id "org.jetbrains.kotlin.android" version "1.9.24" apply false
+// 2.gradle-wrapper.properties
+// distributionUrl=https\://services.gradle.org/distributions/gradle-8.10.2-all.zip
+// 3. App + src +level build.gradle
+//         sourceCompatibility = JavaVersion.VERSION_21
+//         targetCompatibility = JavaVersion.VERSION_21
+
+
+
+
 class _HomePageState extends State<HomePage> {
   var firstController = TextEditingController();
   var secondController = TextEditingController();
